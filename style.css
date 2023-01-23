@@ -1,0 +1,39 @@
+#all-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.box-card {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background-color: rgba(241, 235, 235, 0.367);
+  box-shadow: 4px 4px 4px 2px rgba(110, 121, 123, 0.2);
+}
+
+.box-card:hover {
+background-color: rgb(195, 195, 220);
+}
+.country-name {
+  font-size: 25px;
+  font-weight: 800;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.info-box {
+  margin-left: 10%;
+  margin-top: 10%;
+  margin-bottom: 30%;
+}
+  .description {
+    display: flex;
+    font-weight: 900;
+    gap: 10px;
+  }
+  span {
+    font-weight: 400;
+  }
+  
+/* search 
